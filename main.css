@@ -2,8 +2,7 @@
 /* CSS Document */
 
 body{
-	background: url("pic/fasttrack.JPG") no-repeat;
-	background-size:contain ;
+	background: url("pinkdot.png") repeat;
 	background-attachment: fixed;
 }
 
@@ -11,44 +10,31 @@ body{
 
 #showbox{
 	border:thick;
-	width: 950px;
+	width: 960px;
 	padding: 100px;
 }
 
-body, header{
+header{
 	font-family: dancing, serif;
-	font-weight: 800;
-	font-style: normal;	
-	text-align: center;
-	color: rgba(97,96,96,.7);
-	margin-top: 80px;
-	padding: 50px;
-	
+ 	height: 200px;
+	width: 920px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background-color: darkmagenta;
+	background: url("babyheader.png") no-repeat;
+	background-attachment: fixed;
+	background-size:contain;
+	border-style: groove;
 	
 }
 
 nav{
 	width:100%;
-	text-align: center;
+	text-align: left;
+	padding: 10px 20px 10px 10px;
 }
 
-nav ul{
-  list-style-type:none;
-  margin: 100;
-  padding-bottom: 50;
-	
-}
 
-nav li{
-	display:inline-block;
-	margin-top: auto;
-	
-}
-
-li{
-	margin-top:20px;
-	padding-top:2px;
-}
 
 body{
 	background-color:aqua;
@@ -58,10 +44,28 @@ body{
 	
 }
 
-
-#picbox{
+div{ background-color: burlywood;
+	padding: 10px 20px 10px 10px;
+	margin-right: 20px;
+	height: 150px;
+	width: 100%;
 	
 	
 }
+
+section{
+width: 170px;
+padding-left: 20px;	
+align-self: left;
+background-color: chartreuse;
 	
+}
+
+footer{
+	height: 30px;
+	background-color: crimson;
+	margin-top: 10px;
+	
+	
+}	
 	
