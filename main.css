@@ -59,9 +59,9 @@ section div{
 
 
 section{
-	width: 482px;
+	width: 442px;
 	padding-left: 170px;	
-	background-color: chartreuse;
+	background-color: cornflowerblue;
 	float: right;
 	margin-bottom: 10px;
 	border: 10px;
@@ -70,7 +70,7 @@ section{
 
 footer{
 	height: 30px;
-	background-color: crimson;
+	background-color:aquamarine ;
 	clear: both;
 	
 	
