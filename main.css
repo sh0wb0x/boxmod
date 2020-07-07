@@ -30,11 +30,11 @@ header{
 
 nav{
 	text-align: left;
-	padding: 10px 20px 10px 10px;
 	float: left;
 	background-color: lightsalmon; 
-	margin: 10px 20px 0px 10px;
+	margin: 10px 20px 10px 10px;
 	border: 10px;
+	padding: 80px;
 }
 
 
@@ -46,16 +46,20 @@ body{
 	
 	
 }
-
-div{ background-color: burlywood;
+section div{
+ background-color: burlywood;
 	height: 150px;
 	width: 100%;
+	border:10px;
+	align-self : center;
 	
 	
 }
+	
+
 
 section{
-	width: 170px;
+	width: 482px;
 	padding-left: 170px;	
 	background-color: chartreuse;
 	float: right;
